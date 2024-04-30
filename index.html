@@ -14,124 +14,152 @@
     <style>
         body {
             background-image: url("public/images/self-bg-2.jpg");
-
+            -webkit-user-select: none;
+            user-select: none;
             background-size: fixed;
             background-position-x: -30px;
             background-position-y: -30px;
         }
-        
-        #highlight{
+
+        #highlight {
             margin-top: 43vh;
         }
-        #titleMain{
-                font-size: 4em;
-                font-weight: bold;
-            }
-            #hideOne{
-                display: none;
-            }
-       
+
+        #titleMain {
+            font-size: 4em;
+            font-weight: bold;
+        }
+
+        #hideOne {
+            display: none;
+        }
+
 
         @media screen and (min-width: 992px) {
             #brandTitle {
                 margin-right: 45%;
                 margin-left: 3%;
             }
-            body{
-            background-image: url("public/images/self-bg.jpg");
-            background-size: cover;
+
+            body {
+                background-image: url("public/images/self-bg.jpg");
+                background-size: cover;
 
             }
-            #highlight{
-            margin-top: 50vh;
-            margin-bottom: 5vh;
+
+            #highlight {
+                margin-top: 50vh;
+                margin-bottom: 5vh;
             }
-            #titleMain{
+
+            #titleMain {
                 font-size: 5em;
                 font-weight: bold;
             }
-            #hideOne{
+
+            #hideOne {
                 display: inline;
             }
 
-        }
+            .nav-link {
+                cursor: pointer;
+            }
 
+        }
     </style>
 
 </head>
 
 <body class="container-fluid">
-    <div class="navbar mt-3 navbar-expand-lg mb-5 navbar-dark" >
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span
+    <div class="navbar mt-3 navbar-expand-lg mb-5 navbar-dark">
+        <button  class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span
                 class="navbar-toggler-icon"></span></button>
         <h1 id="brandTitle" class="navbar-brand fs-3"><span class="text-success">Nikhil</span> Shetty.</h1>
 
         <nav class="navbar-collapse collapse" id="menu" data-bs-theme="dark">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                   <a href="#" class="nav-link">
-                    <div class="dropdown">
-                        <span class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Home</span>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item"><span class="bi-house-fill"></span> Home</li>
-                            <li class="dropdown-divider">personal</li>
-                            <li class="dropdown-item"><span class="bi-palette-fill"></span> designs</li>
-                        </ul>
-                    </div>
-                   </a>
+                    <span class="nav-link">
+                        <div class="dropdown">
+                            <span class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Home</span>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><span class="bi-house-fill"></span> Home</li>
+                                <li class="dropdown-divider">personal</li>
+                                <li class="dropdown-item"><span class="bi-palette-fill"></span> designs</li>
+                            </ul>
+                        </div>
+                    </span>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
-                     <div class="dropdown">
-                         <div class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Resume</div>
-                         <ul class="dropdown-menu">
-                             <li class="dropdown-item"><span class="bi-file-earmark-fill"></span> Resume Default</li>
-                             <li class="dropdown-divider"></li>
-                             <li class="dropdown-item">Resume Creative </li>
-                         </ul>
-                     </div>
-                    </a>
-                 </li>
-                 <li class="nav-item">
-                    <a href="#" class="nav-link">
-                     <div class="dropdown">
-                         <span class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Works</span>
-                         <ul class="dropdown-menu">
-                             <li class="dropdown-item">Collabs</li>
-                             <li class="dropdown-divider"></li>
-                             <li class="dropdown-item">designs</li>
-                         </ul>
-                     </div>
-                    </a>
-                 </li>
-                 <li class="nav-item">
-                    <a href="#" class="nav-link">
-                     <div class="dropdown">
-                         <span class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Blog</span>
-                         <ul class="dropdown-menu">
-                             <li class="dropdown-item">Public</li>
-                             <li class="dropdown-divider"></li>
-                             <li class="dropdown-item">Private</li>
-                         </ul>
-                     </div>
-                    </a>
-                 </li>
-                 <li class="nav-item">
-                    <a href="#" class="nav-link">
-                     <div class="dropdown">
-                         <span class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Contact</span>
-                         <ul class="dropdown-menu">
-                             <li class="dropdown-item"><span class="bi-instagram">&nbsp;Instagram</span></li>
-                             <li class="dropdown-divider"></li>
-                             <li class="dropdown-item"><span class="bi-github">&nbsp;Git-hub</span></li>
-                             <li class="dropdown-divider"></li>
-                             <li class="dropdown-item"><span class="bi-facebook">&nbsp;Facebook</span></li>
-                             <li class="dropdown-divider"></li>
-                             <li class="dropdown-item"><span class="bi-linkedin">&nbsp;Linkedin</span></li>
-                         </ul>
-                     </div>
-                    </a>
-                 </li>
+                    <span class="nav-link">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Resume</div>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"> <a class="bi-file-earmark-fill text-decoration-none text-light" href="public/pdf/Nikhilresume.pdf" target="_blank"> Open Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link">
+                        <div class="dropdown">
+                            <span class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Projects</span>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="https://tomotaok.vercel.app/" class="text-decoration-none text-light" target="_blank">Agent Esports</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item"><a href="https://nikhil-ageeru.github.io/academia/" class="text-decoration-none text-light" target="_blank">academia</a></li>
+                            </ul>
+                        </div>
+                    </span>
+                </li>
+                <!-- <li class="nav-item">
+                    <span class="nav-link">
+                        <div class="dropdown">
+                            <span class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Blog</span>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">Public</li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item">Private</li>
+                            </ul>
+                        </div>
+                    </span>
+                </li> -->
+                <li class="nav-item">
+                    <span class="nav-link">
+                        <div class="dropdown">
+                            <span class="dropdown-toggle fs-5 fw-bold" data-bs-toggle="dropdown">Contact</span>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+
+                                    <a href="https://www.linkedin.com/in/nikhil-ageeru/"
+                                        class="text-light ms-4 bi-linkedin text-decoration-none"> linkedin</a>
+
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item">
+
+                                    <a href="https://github.com/Nikhil-Ageeru"
+                                        class="text-light ms-4 bi-github text-decoration-none"> GitHub</a>
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item">
+
+                                    <a href="https://www.facebook.com/profile.php?id=100084987784974"
+                                        class="text-light ms-4 bi-facebook text-decoration-none"> Facebook</a>
+
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item">
+
+                                    <a href="https://www.instagram.com/nikhilshetty_12/"
+                                        class="text-light ms-4 bi-instagram text-decoration-none"> Instagram</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </span>
+                </li>
             </ul>
         </nav>
 
@@ -139,12 +167,12 @@
     <div class="grid " id="highlight">
         <div class="row">
             <div class="col-md-3 "></div>
-            <div class="col-md-3 col-6" ></div>
+            <div class="col-md-3 col-6"></div>
             <div class="col-md-4 col-6 text-light fs-5">
-                Hello, I’m <span class="fw-bold text-success">Nikhil Shetty</span>, UX/UI Designer 
-                and Front-end Developer Based in <span class="fw-bold text-success">India.</span>
+                Hello, I’m <span class="fw-bold text-success">Nikhil Shetty</span>, UX/UI Designer
+                and MERN Stack Developer Based in <span class="fw-bold text-success">India.</span>
             </div>
-           
+
             <div class="col-md-2"></div>
         </div>
     </div>
@@ -154,14 +182,16 @@
                 <div class="container text-light fw-bold">E: nikhilshetty2023@gmail.com</div>
                 <div class="container text-light fw-bold">T: 7095340712</div>
             </div>
-            <div class="col-md-7 col-12" id="titleMain"><span class="text-light">I develop</span> <span class="text-success">web apps</span></div>
+            <div class="col-md-7 col-12" id="titleMain"><span class="text-light">I develop</span> <span
+                    class="text-success">web apps</span></div>
             <div class="col-md-1"></div>
             <div class="col-md-1">
                 <div class="container">
-                    <a href="#" class="text-light ms-4 bi-linkedin"></a>
-                    <a href="#" class="text-light ms-4 bi-github"></a>
-                    <a href="#" class="text-light ms-4 bi-facebook"></a>
-                    <a href="#" class="text-light ms-4 bi-instagram"></a>
+                    <a href="https://www.linkedin.com/in/nikhil-ageeru/" class="text-light ms-4 bi-linkedin"></a>
+                    <a href="https://github.com/Nikhil-Ageeru" class="text-light ms-4 bi-github"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100084987784974"
+                        class="text-light ms-4 bi-facebook"></a>
+                    <a href="https://www.instagram.com/nikhilshetty_12/" class="text-light ms-4 bi-instagram"></a>
                 </div>
             </div>
         </div>
