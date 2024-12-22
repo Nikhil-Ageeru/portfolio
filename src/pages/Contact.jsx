@@ -36,7 +36,7 @@ function Contact() {
                     <div className="gx-row d-flex justify-content-between gap-5">
                       <div className="contact-infos">
                         <h4 data-aos="fade-up">Contact Info</h4>
-                        <ul className="contact-details ps-lg-0">
+                        <ul className="contact-details ps-0">
                           <li
                             className="d-flex align-items-center"
                             data-aos="zoom-in"
