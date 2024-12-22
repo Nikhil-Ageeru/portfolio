@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
     <footer className="footer-area">
                 <div className="container">
                     <div className="footer-content text-center">
-                        <a href="../index.html" className="logo">
+                        <Link to="/" className="logo">
                             <img
-                                src="../wp-content/themes/gridx/assets/images/logo.svg"
+                                src="/wp-content/themes/gridx/assets/images/logo.png"
                                 alt="Logo"
                             />
-                        </a>
+                        </Link>
                         <ul
                             data-in="#"
                             data-out="#"
@@ -21,33 +22,33 @@ function Footer() {
                                 id="menu-item-1856"
                                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1856"
                             >
-                                <a title="Home" href="../index.html">
+                                <Link title="Home" to="/">
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li
                                 id="menu-item-1857"
                                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1857"
                             >
-                                <a title="About" href="../about-page/index.html">
+                                <Link title="About" to="/about">
                                     About
-                                </a>
+                                </Link>
                             </li>
                             <li
                                 id="menu-item-1859"
                                 className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1084 current_page_item menu-item-1859 active"
                             >
-                                <a title="Works" href="index.html">
+                                <Link title="Works" to="/works">
                                     Works
-                                </a>
+                                </Link>
                             </li>
                             <li
                                 id="menu-item-1858"
                                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1858"
                             >
-                                <a title="Contact" href="../contact-info/index.html">
+                                <Link title="Contact" to="/contact">
                                     Contact
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                         <p className="copyright">© All rights reserved</p>

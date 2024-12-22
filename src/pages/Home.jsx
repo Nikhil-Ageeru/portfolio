@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <>
     <main className="main-homepage">
       <section className="about-area">
         <div className="container">
@@ -34,7 +34,7 @@ function Home() {
       ============================================= */}
                         <div data-aos="zoom-in" className="about-me-box-wrap">
                           <div className="about-me-box shadow-box">
-                            <a className="overlay-link" href="about-page/" />
+                            <Link className="overlay-link" to="/about" />
                             <img
                               decoding="async"
                               src="wp-content/themes/gridx/assets/images/bg1.png"
@@ -52,13 +52,13 @@ function Home() {
                               <h5>A WEB DEVELOPER</h5>
                               <h1>Nikhil Ageeru.</h1>
                               <p>I am a Web Developer based in India.</p>
-                              <a href="#" className="about-btn">
+                              <Link to="/about" className="about-btn">
                                 <img
                                   decoding="async"
                                   src="wp-content/themes/gridx/assets/images/icon.svg"
                                   alt="Star"
                                 />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -179,9 +179,9 @@ function Home() {
                                   className="about-crenditials-box"
                                 >
                                   <div className="info-box shadow-box h-full">
-                                    <a
+                                    <Link
                                       className="overlay-link"
-                                      href="credential/index.html"
+                                      to="#"
                                     />
                                     <img
                                       decoding="async"
@@ -197,10 +197,10 @@ function Home() {
                                     <div className="d-flex align-items-center justify-content-between">
                                       <div className="infos">
                                         <h5>MORE ABOUT ME</h5>
-                                        <h2>Credentials</h2>
+                                        <h2>Evolution</h2>
                                       </div>
-                                      <a
-                                        href="credential/index.html"
+                                      <Link
+                                        to="#"
                                         className="about-btn"
                                       >
                                         <img
@@ -208,7 +208,7 @@ function Home() {
                                           src="wp-content/themes/gridx/assets/images/icon.svg"
                                           alt="Star"
                                         />
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                 </div>
@@ -236,9 +236,9 @@ function Home() {
                                   className="about-project-box"
                                 >
                                   <div className="info-box shadow-box h-full">
-                                    <a
+                                    <Link
                                       className="overlay-link"
-                                      href="work/index.html"
+                                      to="#"
                                     />
                                     <img
                                       decoding="async"
@@ -256,8 +256,8 @@ function Home() {
                                         <h5>SHOWCASE</h5>
                                         <h2>Projects</h2>
                                       </div>
-                                      <a
-                                        href="work/index.html"
+                                      <Link
+                                        to="#"
                                         className="about-btn"
                                       >
                                         <img
@@ -265,7 +265,7 @@ function Home() {
                                           src="wp-content/themes/gridx/assets/images/icon.svg"
                                           alt="Star"
                                         />
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                 </div>
@@ -304,8 +304,8 @@ function Home() {
                           <div className="blog-service-profile-wrap d-flex gap-24">
                             <div data-aos="zoom-in" className="about-blog-box">
                               <div className="info-box shadow-box h-full">
-                                <a
-                                  href="consulted-admitting-is-power-acuteness/index.html"
+                                <Link
+                                  to="#"
                                   className="overlay-link"
                                 />
                                 <img
@@ -324,8 +324,8 @@ function Home() {
                                     <h5>BLOG</h5>
                                     <h2>GFonts</h2>
                                   </div>
-                                  <a
-                                    href="consulted-admitting-is-power-acuteness/index.html"
+                                  <Link
+                                    to="#"
                                     className="about-btn"
                                   >
                                     <img
@@ -333,7 +333,7 @@ function Home() {
                                       src="wp-content/themes/gridx/assets/images/icon.svg"
                                       alt="Star"
                                     />
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>
@@ -365,8 +365,8 @@ function Home() {
                               className="flex-1 about-services-box-wrap"
                             >
                               <div className="about-services-box info-box shadow-box h-full">
-                                <a
-                                  href="service-offerings/index.html"
+                                <Link
+                                  to="#"
                                   className="overlay-link"
                                 />
                                 <img
@@ -390,8 +390,8 @@ function Home() {
                                     <h5>SPECIALIZATION</h5>
                                     <h2>Services Offering</h2>
                                   </div>
-                                  <a
-                                    href="service-offerings/index.html"
+                                  <Link
+                                    to="#"
                                     className="about-btn"
                                   >
                                     <img
@@ -399,7 +399,7 @@ function Home() {
                                       src="wp-content/themes/gridx/assets/images/icon.svg"
                                       alt="Star"
                                     />
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>
@@ -456,13 +456,13 @@ function Home() {
                                     <h5>STAY WITH ME</h5>
                                     <h2>Profiles</h2>
                                   </div>
-                                  <a href="contact-info" className="about-btn">
+                                  <Link to="#" className="about-btn">
                                     <img
                                       decoding="async"
                                       src="wp-content/themes/gridx/assets/images/icon.svg"
                                       alt="Star"
                                     />
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>
@@ -552,9 +552,9 @@ function Home() {
                           className="about-contact-box-wrap"
                         >
                           <div className="about-contact-box info-box shadow-box">
-                            <a
+                            <Link
                               className="overlay-link"
-                              href="contact-info/index.html"
+                              to="/contact"
                             />
                             <img
                               decoding="async"
@@ -572,8 +572,8 @@ function Home() {
                               Let's <br />
                               work <span>together.</span>
                             </h2>
-                            <a
-                              href="contact-info/index.html"
+                            <Link
+                              to="/contact"
                               className="about-btn"
                             >
                               <img
@@ -581,7 +581,7 @@ function Home() {
                                 src="wp-content/themes/gridx/assets/images/icon.svg"
                                 alt="Star"
                               />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -594,7 +594,6 @@ function Home() {
         </div>
       </section>
     </main>
-  </>
   
 
   )

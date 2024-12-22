@@ -2,3 +2,9 @@
   margin: 0 auto;
 }
 
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap{
+  padding-inline: 12px;
+}
+.elementor-widget:not(:last-child){
+  margin-bottom: 10px;
+}

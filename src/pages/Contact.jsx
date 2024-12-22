@@ -33,10 +33,10 @@ function Contact() {
                 {/* Contact */}
                 <section className="contact-area">
                   <div className="container">
-                    <div className="gx-row d-flex justify-content-between gap-24">
+                    <div className="gx-row d-flex justify-content-between gap-5">
                       <div className="contact-infos">
                         <h4 data-aos="fade-up">Contact Info</h4>
-                        <ul className="contact-details">
+                        <ul className="contact-details ps-lg-0">
                           <li
                             className="d-flex align-items-center"
                             data-aos="zoom-in"
@@ -141,11 +141,7 @@ function Contact() {
                               aria-label="Contact form"
                               data-status="init"
                             >
-                              {/* <div class="alert alert-success messenger-box-contact__msg"
-                          style="display: block" role="alert">
-                          <p>Your message was sent successfully.
-                          </p>
-                        </div> */}
+                              
                               
                               <div className="input-group">
                                 <p>
@@ -189,27 +185,7 @@ function Contact() {
                                   </span>
                                 </p>
                               </div>
-                              <div className="input-group">
-                                <p>
-                                  <span
-                                    className="wpcf7-form-control-wrap"
-                                    data-name="subject"
-                                  >
-                                    <input
-                                      size={140}
-                                      maxLength={400}
-                                      className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-group"
-                                      id="subject"
-                                      aria-required="true"
-                                      aria-invalid="false"
-                                      placeholder="Your Subject *"
-                                      defaultValue=""
-                                      type="text"
-                                      name="subject"
-                                    />
-                                  </span>
-                                </p>
-                              </div>
+                              
                               <div className="input-group">
                                 <p>
                                   <span
@@ -217,7 +193,7 @@ function Contact() {
                                     data-name="message"
                                   >
                                     <textarea
-                                      cols={40}
+                                      cols={140}
                                       rows={10}
                                       maxLength={2000}
                                       className="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required input-group"

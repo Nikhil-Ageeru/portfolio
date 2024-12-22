@@ -558,7 +558,7 @@ ol {
 }
 
 .about-area .about-image-box {
-    width: 370px;
+    width: 100%;
     flex: none;
     padding: 24px;
     border-radius: 30px;
