@@ -445,7 +445,7 @@ function Home() {
                                     <i className="iconoir-linkedin" />
                                   </a>
                                   <a
-                                    href="https://www.instagram.com/nikhilshetty_12/"
+                                    href="https://github.com/Nikhil-Ageeru"
                                     target="_blank"
                                   >
                                     <i className="iconoir-github" />

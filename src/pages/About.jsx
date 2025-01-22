@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function About() {
   return (
@@ -288,6 +289,12 @@ function About() {
                                           <i className="iconoir-linkedin" />
                                         </a>
                                         <a
+                                          href="https://github.com/Nikhil-Ageeru"
+                                          target="_blank"
+                                        >
+                                          <i className="iconoir-github" />
+                                        </a>
+                                        <a
                                           href="https://www.instagram.com/nikhilshetty_12/"
                                           target="_blank"
                                         >
@@ -299,8 +306,8 @@ function About() {
                                           <h5>STAY WITH ME</h5>
                                           <h2>Profiles</h2>
                                         </div>
-                                        <a
-                                          href="../contact-info/index.html"
+                                        <Link
+                                          to="/contact"
                                           className="about-btn"
                                         >
                                           <img
@@ -308,7 +315,7 @@ function About() {
                                             src="../wp-content/themes/gridx/assets/images/icon.svg"
                                             alt="Star"
                                           />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
@@ -338,9 +345,9 @@ function About() {
                                 className="about-contact-box-wrap"
                               >
                                 <div className="about-contact-box info-box shadow-box">
-                                  <a
+                                  <Link
                                     className="overlay-link"
-                                    href="../contact-info/index.html"
+                                    to="/contact"
                                   />
                                   <img
                                     decoding="async"
@@ -358,8 +365,8 @@ function About() {
                                     Let's <br />
                                     work <span>together.</span>
                                   </h2>
-                                  <a
-                                    href="../contact-info/index.html"
+                                  <Link
+                                    to="/contact"
                                     className="about-btn"
                                   >
                                     <img
@@ -367,7 +374,7 @@ function About() {
                                       src="../wp-content/themes/gridx/assets/images/icon.svg"
                                       alt="Star"
                                     />
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>
@@ -394,9 +401,9 @@ function About() {
                                 className="about-crenditials-box"
                               >
                                 <div className="info-box shadow-box h-full">
-                                  <a
+                                  <Link
                                     className="overlay-link"
-                                    href="../credential/index.html"
+                                    to=""
                                   />
                                   <img
                                     decoding="async"
@@ -414,8 +421,8 @@ function About() {
                                       <h5>MORE ABOUT ME</h5>
                                       <h2>Credentials</h2>
                                     </div>
-                                    <a
-                                      href="../credential/index.html"
+                                    <Link
+                                      to=""
                                       className="about-btn"
                                     >
                                       <img
@@ -423,7 +430,7 @@ function About() {
                                         src="../wp-content/themes/gridx/assets/images/icon.svg"
                                         alt="Star"
                                       />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </div>

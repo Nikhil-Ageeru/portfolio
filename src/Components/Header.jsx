@@ -64,9 +64,9 @@ function Header() {
                             </li>
                         </ul>
                     </nav>
-                    <a href="../contact-info/index.html" className="theme-btn">
+                    <Link to="/contact" className="theme-btn">
                         Let’s talk
-                    </a>
+                    </Link>
                     {/* Toggle menu button */}
                     <div
                         className={`show-menu ${isMenuOpen ? 'active' : ''}`}
