@@ -274,7 +274,7 @@ function Home() {
               </div>
             </section>
             <section
-              className="elementor-section elementor-top-section elementor-element elementor-element-033fafe row mt-24 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+              className="elementor-section elementor-top-section elementor-element elementor-element-033fafe row mt-24 elementor-section-boxed elementor-section-height-default elementor-section-height-default mt-0 mt-lg-4"
               data-id="033fafe"
               data-element_type="section"
             >
