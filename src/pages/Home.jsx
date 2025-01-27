@@ -194,7 +194,7 @@ function Home() {
                                         <h2>Evolution</h2>
                                       </div>
                                       <Link
-                                        to="#"
+                                        to="/about"
                                         className="about-btn"
                                       >
                                         <img
@@ -251,7 +251,7 @@ function Home() {
                                         <h2>Projects</h2>
                                       </div>
                                       <Link
-                                        to="#"
+                                        to="/works"
                                         className="about-btn"
                                       >
                                         <img
@@ -303,7 +303,7 @@ function Home() {
                             >
                               <div className="about-services-box info-box shadow-box h-full">
                                 <Link
-                                  to="#"
+                                  to="/works"
                                   className="overlay-link"
                                 />
                                 <img
@@ -328,7 +328,7 @@ function Home() {
                                     <h2>Services Offering</h2>
                                   </div>
                                   <Link
-                                    to="#"
+                                    to="/works"
                                     className="about-btn"
                                   >
                                     <img
@@ -409,7 +409,7 @@ function Home() {
                                     <h5>STAY WITH ME</h5>
                                     <h2>Profiles</h2>
                                   </div>
-                                  <Link to="#" className="about-btn">
+                                  <Link to="/about" className="about-btn">
                                     <img
                                       decoding="async"
                                       src="wp-content/themes/gridx/assets/images/icon.svg"

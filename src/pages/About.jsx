@@ -413,6 +413,7 @@ function About() {
                                   />
                                   <img
                                     decoding="async"
+                                    className='w-75'
                                     src="../wp-content/uploads/2023/04/sign.png"
                                     alt=""
                                   />
