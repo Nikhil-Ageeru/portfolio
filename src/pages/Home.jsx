@@ -44,7 +44,7 @@ function Home() {
                             <div className="img-box">
                               <img
                                 decoding="async"
-                                src="wp-content/uploads/2023/04/me.png"
+                                src="wp-content/uploads/2023/04/Nikhil-Ageeru.png"
                                 alt=""
                               />
                             </div>
@@ -90,62 +90,56 @@ function Home() {
                                     animation: "marquee 8s linear infinite"
                                   }}
                                 >
+                                  
                                   <span>
-                                    LATEST WORK AND <b>FEATURED</b>
+                                    <a target='_blank' className='text-muted' href="https://www.vaishnaviinteriors.in/">VAISHNAVI INTERIORS</a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt=""
-                                    />
+                                      alt="project"/>
                                   </span>
+                                  
                                   <span>
-                                    LATEST WORK AND <b>FEATURED</b>
+                                    <a target='_blank' className='text-muted' href="https://www.avantiglobal.co.uk/">AVANTHI GLOBAL</a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt=""
-                                    />
+                                      alt="project"/>
                                   </span>
+                                  
                                   <span>
-                                    LATEST WORK AND <b>FEATURED</b>
+                                    <a target='_blank' className='text-muted' href="https://swec.ac.in/">SWEC </a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt=""
-                                    />
+                                      alt="project"/>
                                   </span>
+                                  
                                   <span>
-                                    LATEST WORK AND <b>FEATURED</b>
+                                    <a target='_blank' className='text-muted' href="https://www.vaishnaviinteriors.in/">VAISHNAVI INTERIORS</a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt=""
-                                    />
+                                      alt="project"/>
                                   </span>
+                                  
                                   <span>
-                                    LATEST WORK AND <b>FEATURED</b>
+                                    <a target='_blank' className='text-muted' href="https://www.avantiglobal.co.uk/">AVANTHI GLOBAL</a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt=""
-                                    />
+                                      alt="project"/>
                                   </span>
+                                  
                                   <span>
-                                    LATEST WORK AND <b>FEATURED</b>
+                                    <a target='_blank' className='text-muted' href="https://swec.ac.in/">SWEC </a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt=""
-                                    />
+                                      alt="project"/>
                                   </span>
-                                  <span>
-                                    LATEST WORK AND <b>FEATURED</b>
-                                    <img
-                                      decoding="async"
-                                      src="wp-content/uploads/2023/04/star1.svg"
-                                      alt=""
-                                    />
-                                  </span>
+                                  
+                                  
                                 </div>
                               </div>
                             </div>
@@ -181,7 +175,7 @@ function Home() {
                                   <div className="info-box shadow-box h-full">
                                     <Link
                                       className="overlay-link"
-                                      to="#"
+                                      to="/about"
                                     />
                                     <img
                                       decoding="async"
@@ -238,7 +232,7 @@ function Home() {
                                   <div className="info-box shadow-box h-full">
                                     <Link
                                       className="overlay-link"
-                                      to="#"
+                                      to="/works"
                                     />
                                     <img
                                       decoding="async"
@@ -285,64 +279,7 @@ function Home() {
               data-element_type="section"
             >
               <div className="elementor-container elementor-column-gap-no">
-                <div
-                  className="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-dc60a93"
-                  data-id="dc60a93"
-                  data-element_type="column"
-                >
-                  <div className="elementor-widget-wrap elementor-element-populated">
-                    <div
-                      className="elementor-element elementor-element-6ab9773 elementor-widget elementor-widget-gridxdablogbox"
-                      data-id="6ab9773"
-                      data-element_type="widget"
-                      data-widget_type="gridxdablogbox.default"
-                    >
-                      <div className="elementor-widget-container">
-                        {/* Start Blog Box
-      ============================================= */}
-                        <div className="col-md-12">
-                          <div className="blog-service-profile-wrap d-flex gap-24">
-                            <div data-aos="zoom-in" className="about-blog-box">
-                              <div className="info-box shadow-box h-full">
-                                <Link
-                                  to="#"
-                                  className="overlay-link"
-                                />
-                                <img
-                                  decoding="async"
-                                  src="wp-content/themes/gridx/assets/images/bg1.png"
-                                  alt="BG"
-                                  className="bg-img"
-                                />
-                                <img
-                                  decoding="async"
-                                  src="wp-content/uploads/2023/04/gfonts.png"
-                                  alt=""
-                                />
-                                <div className="d-flex align-items-center justify-content-between">
-                                  <div className="infos">
-                                    <h5>BLOG</h5>
-                                    <h2>GFonts</h2>
-                                  </div>
-                                  <Link
-                                    to="#"
-                                    className="about-btn"
-                                  >
-                                    <img
-                                      decoding="async"
-                                      src="wp-content/themes/gridx/assets/images/icon.svg"
-                                      alt="Star"
-                                    />
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
                 <div
                   className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-524805c"
                   data-id="524805c"
@@ -376,13 +313,13 @@ function Home() {
                                   className="bg-img"
                                 />
                                 <div className="icon-boxes">
-                                  <i className="iconoir-code" />{" "}
+                                  <i title='Development' className="iconoir-code" />
                                   {/* Frontend Development */}
-                                  <i className="iconoir-design-pencil" />{" "}
+                                  <i title='Designing' className="iconoir-design-pencil" />
                                   {/* UI/UX Design */}
-                                  <i className="iconoir-dev-mode-phone" />{" "}
+                                  <i title='Responsive' className="iconoir-dev-mode-phone" />
                                   {/* Responsive Design */}
-                                  <i className="iconoir-search-engine" />{" "}
+                                  <i title='SEO' className="iconoir-search-engine" />
                                   {/* Website Optimization */}
                                 </div>
                                 <div className="d-flex align-items-center justify-content-between">
@@ -410,7 +347,7 @@ function Home() {
                   </div>
                 </div>
                 <div
-                  className="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-386b9dc"
+                  className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-386b9dc"
                   data-id="386b9dc"
                   data-element_type="column"
                 >
@@ -438,6 +375,8 @@ function Home() {
                                   className="bg-img"
                                 />
                                 <div className="inner-profile-icons shadow-box">
+                                  
+
                                   <a
                                     href="https://www.linkedin.com/in/nikhil-ageeru/"
                                     target="_blank"
@@ -449,6 +388,20 @@ function Home() {
                                     target="_blank"
                                   >
                                     <i className="iconoir-github" />
+                                  </a>
+
+                                  <a
+                                    href="https://www.instagram.com/nikhilshetty_12/"
+                                    target="_blank"
+                                  >
+                                    <i className="iconoir-instagram" />
+                                  </a>
+
+                                  <a
+                                    href="https://agentesports.in/about"
+                                    target="_blank"
+                                  >
+                                    <i className="iconoir-gamepad" />
                                   </a>
                                 </div>
                                 <div className="d-flex align-items-center justify-content-between">

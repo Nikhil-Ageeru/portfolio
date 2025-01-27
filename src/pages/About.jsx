@@ -57,8 +57,9 @@ function About() {
                                   />
                                   <div className="image-inner">
                                     <img
+                                    className='w-100'
                                       decoding="async"
-                                      src="../wp-content/uploads/2023/04/me2.png"
+                                      src="wp-content/uploads/2023/04/Nikhil-Ageeru-2.png"
                                       alt=""
                                     />
                                   </div>
@@ -97,7 +98,7 @@ function About() {
                                     alt="Star"
                                   />
                                 </h1>
-                                <div className="about-details-inner shadow-box">
+                                <div className="about-details-inner shadow-box ">
                                   <img
                                     decoding="async"
                                     src="../wp-content/themes/gridx/assets/images/icon2.png"
@@ -266,8 +267,7 @@ function About() {
                             data-widget_type="gridxdaprofilesbox.default"
                           >
                             <div className="elementor-widget-container">
-                              {/* Start Profiles Box
-  ============================================= */}
+                              {/* Start Profiles Box */}
                               <div className="col-md-12">
                                 <div className="blog-service-profile-wrap">
                                   <div

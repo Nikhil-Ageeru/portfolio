@@ -53,13 +53,12 @@ function Works() {
                                             data-widget_type="gridxdaworksidebarbox.default"
                                         >
                                             <div className="elementor-widget-container">
-                                                {/* Start Work
-============================================= */}
+                                                {/* Project 1 starts here */}
                                                 <div data-aos="zoom-in">
                                                     <div className="project-item shadow-box">
                                                         <a
                                                             className="overlay-link"
-                                                            href="https://agentesports-trail.vercel.app/"
+                                                            href="https://agentesports.in/"
                                                         />
                                                         <img
                                                             decoding="async"
@@ -77,12 +76,12 @@ function Works() {
                                                         <div className="d-flex align-items-center justify-content-between">
                                                             <div className="project-info">
                                                                 <p>Agent Esports</p>
-                                                                <h2>Dynamic Website</h2>
+                                                                <h2>Gaming Web Application</h2>
                                                             </div>
                                                             <a
-                                                                href="https://agentesports-trail.vercel.app/"
+                                                                href="https://agentesports.in/"
                                                                 target='_blank'
-                                                                className="project-btn" target='_blank'
+                                                                className="project-btn" 
                                                             >
                                                                 <img
                                                                     decoding="async"
@@ -93,6 +92,10 @@ function Works() {
                                                         </div>
                                                     </div>
                                                 </div>
+                                                {/* Project 1 ends here */}
+                                                {/* Project 2 starts here */}
+
+
                                                 <div data-aos="zoom-in">
                                                     <div className="project-item shadow-box">
                                                         <a
@@ -115,7 +118,7 @@ function Works() {
                                                         <div className="d-flex align-items-center justify-content-between">
                                                             <div className="project-info">
                                                                 <p>Vaishnavi Interiors</p>
-                                                                <h2>Static Website</h2>
+                                                                <h2>Interiors Portfolio</h2>
                                                             </div>
                                                             <a
                                                                 href="https://www.vaishnaviinteriors.in/"
@@ -130,6 +133,8 @@ function Works() {
                                                         </div>
                                                     </div>
                                                 </div>
+                                                {/* Project 2 ends here */}
+
                                             </div>
                                         </div>
                                     </div>
@@ -147,8 +152,7 @@ function Works() {
                                             data-widget_type="gridxdaworktitlebox.default"
                                         >
                                             <div className="elementor-widget-container">
-                                                {/* Start Work
-============================================= */}
+                                                
                                                 <h1 className="section-heading" data-aos="fade-up">
                                                     <img
                                                         decoding="async"
@@ -208,7 +212,7 @@ function Works() {
                                                                             <div className="d-flex align-items-center justify-content-between">
                                                                                 <div className="project-info">
                                                                                     <p>Thoshika Financial Services</p>
-                                                                                    <h2>Static Website</h2>
+                                                                                    <h2>Financial Website </h2>
                                                                                 </div>
                                                                                 <a
                                                                                     href="https://tfsfinserv.com/"
@@ -233,8 +237,7 @@ function Works() {
                                                             data-widget_type="gridxdaworkcontentbox.default"
                                                         >
                                                             <div className="elementor-widget-container">
-                                                                {/* Start Work
-============================================= */}
+                                                                {/* Start Work*/}
                                                                 <div className="d-flex align-items-start gap-24">
                                                                     <div data-aos="zoom-in" className="flex-1">
                                                                         <div className="project-item shadow-box">
@@ -258,7 +261,7 @@ function Works() {
                                                                             <div className="d-flex align-items-center justify-content-between">
                                                                                 <div className="project-info">
                                                                                     <p>UNHACK</p>
-                                                                                    <h2>3D Web design</h2>
+                                                                                    <h2>Offers Pentests </h2>
                                                                                 </div>
                                                                                 <a
                                                                                     href="https://unhack.asia/"
@@ -314,8 +317,8 @@ function Works() {
                                                                             </div>
                                                                             <div className="d-flex align-items-center justify-content-between">
                                                                                 <div className="project-info">
-                                                                                    <p>SWEC Website</p>
-                                                                                    <h2>Website Optimization</h2>
+                                                                                    <p>SWEC </p>
+                                                                                    <h2>College Website</h2>
                                                                                 </div>
                                                                                 <a
                                                                                     href="https://swec.ac.in/"
@@ -364,7 +367,7 @@ function Works() {
                                                                             <div className="d-flex align-items-center justify-content-between">
                                                                                 <div className="project-info">
                                                                                     <p>Avanti Global</p>
-                                                                                    <h2>WEB DESIGNING</h2>
+                                                                                    <h2>IT Solutions Provider</h2>
                                                                                 </div>
                                                                                 <a
                                                                                     href="https://www.avantiglobal.co.uk/"
