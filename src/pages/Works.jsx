@@ -419,6 +419,39 @@ function Works() {
                                                 {/* Project 11 ends here */}
 
 
+{/* Project 12 starts here */}
+<div className="elementor-widget-container col-md-4">
+  <div data-aos="zoom-in">
+    <div className="project-item shadow-box">
+      <a className="overlay-link" target='_blank' href="https://www.dreamzhubinteriors.com/" />
+      <div className="project-img">
+        <img
+          decoding="async"
+          src="../wp-content/uploads/2023/04/project1.jpg"
+          alt="DreamzHub Interiors"
+        />
+      </div>
+      <div className="d-flex align-items-center justify-content-between">
+        <div className="project-info">
+          <p>DreamzHub Interiors</p>
+          <h2>Interior Design Services</h2>
+        </div>
+        <a
+          href="https://www.dreamzhubinteriors.com/"
+          target="_blank"
+          className="project-btn"
+        >
+          <img
+            decoding="async"
+            src="../wp-content/themes/gridx/assets/images/icon.svg"
+            alt="Star"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{/* Project 12 ends here */}
 
 
 
