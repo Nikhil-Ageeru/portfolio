@@ -51,7 +51,7 @@ function Home() {
                             <div className="infos">
                               <h5>A WEB DEVELOPER</h5>
                               <h1>Nikhil Ageeru.</h1>
-                              <p>I am a Web Developer based in India.</p>
+                              <p>I'm a Web Developer from India.</p>
                               <Link to="/about" className="about-btn">
                                 <img
                                   decoding="async"
@@ -90,56 +90,56 @@ function Home() {
                                     animation: "marquee 8s linear infinite"
                                   }}
                                 >
-                                  
+
                                   <span>
                                     <a target='_blank' className='text-muted' href="https://www.vaishnaviinteriors.in/">VAISHNAVI INTERIORS</a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt="project"/>
+                                      alt="project" />
                                   </span>
-                                  
+
                                   <span>
                                     <a target='_blank' className='text-muted' href="https://www.avantiglobal.co.uk/">AVANTHI GLOBAL</a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt="project"/>
+                                      alt="project" />
                                   </span>
-                                  
+
                                   <span>
                                     <a target='_blank' className='text-muted' href="https://swec.ac.in/">SWEC </a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt="project"/>
+                                      alt="project" />
                                   </span>
-                                  
+
                                   <span>
                                     <a target='_blank' className='text-muted' href="https://www.vaishnaviinteriors.in/">VAISHNAVI INTERIORS</a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt="project"/>
+                                      alt="project" />
                                   </span>
-                                  
+
                                   <span>
                                     <a target='_blank' className='text-muted' href="https://www.avantiglobal.co.uk/">AVANTHI GLOBAL</a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt="project"/>
+                                      alt="project" />
                                   </span>
-                                  
+
                                   <span>
                                     <a target='_blank' className='text-muted' href="https://swec.ac.in/">SWEC </a> <b>FEATURED</b>
                                     <img
                                       decoding="async"
                                       src="wp-content/uploads/2023/04/star1.svg"
-                                      alt="project"/>
+                                      alt="project" />
                                   </span>
-                                  
-                                  
+
+
                                 </div>
                               </div>
                             </div>
@@ -279,73 +279,12 @@ function Home() {
               data-element_type="section"
             >
               <div className="elementor-container elementor-column-gap-no">
-                
-                <div
-                  className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-524805c"
-                  data-id="524805c"
-                  data-element_type="column"
-                >
-                  <div className="elementor-widget-wrap elementor-element-populated">
-                    <div
-                      className="elementor-element elementor-element-39b9567 elementor-widget elementor-widget-gridxdaservicesbox"
-                      data-id="39b9567"
-                      data-element_type="widget"
-                      data-widget_type="gridxdaservicesbox.default"
-                    >
-                      <div className="elementor-widget-container">
-                        {/* Start Services Box
-      ============================================= */}
-                        <div className="col-md-12">
-                          <div className="blog-service-profile-wrap d-flex gap-24">
-                            <div
-                              data-aos="zoom-in"
-                              className="flex-1 about-services-box-wrap"
-                            >
-                              <div className="about-services-box info-box shadow-box h-full">
-                                <Link
-                                  to="/works"
-                                  className="overlay-link"
-                                />
-                                <img
-                                  decoding="async"
-                                  src="wp-content/themes/gridx/assets/images/bg1.png"
-                                  alt="BG"
-                                  className="bg-img"
-                                />
-                                <div className="icon-boxes">
-                                  <i title='Development' className="iconoir-code" />
-                                  {/* Frontend Development */}
-                                  <i title='Designing' className="iconoir-design-pencil" />
-                                  {/* UI/UX Design */}
-                                  <i title='Responsive' className="iconoir-dev-mode-phone" />
-                                  {/* Responsive Design */}
-                                  <i title='SEO' className="iconoir-search-engine" />
-                                  {/* Website Optimization */}
-                                </div>
-                                <div className="d-flex align-items-center justify-content-between">
-                                  <div className="infos">
-                                    <h5>SPECIALIZATION</h5>
-                                    <h2>Services Offering</h2>
-                                  </div>
-                                  <Link
-                                    to="/works"
-                                    className="about-btn"
-                                  >
-                                    <img
-                                      decoding="async"
-                                      src="wp-content/themes/gridx/assets/images/icon.svg"
-                                      alt="Star"
-                                    />
-                                  </Link>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                {/* Start Services Box */}
+
+                {/* End Services Box */}
+
+
+
                 <div
                   className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-386b9dc"
                   data-id="386b9dc"
@@ -375,7 +314,91 @@ function Home() {
                                   className="bg-img"
                                 />
                                 <div className="inner-profile-icons shadow-box">
-                                  
+
+
+                                  <a                                  >
+                                    <img
+                                      src="/wp-content/uploads/2023/04/react.svg"
+                                      title="React.js"
+                                      alt="react"
+                                    />
+                                  </a>
+                                  <a>
+                                    <img
+                                      src="/wp-content/uploads/2023/04/nodejs.svg"
+                                      title="Node.js"
+                                      alt="node"
+                                    />
+                                  </a>
+
+                                  <a>
+                                    <img
+                                      src="/wp-content/uploads/2023/04/mongodb.svg"
+                                      title="MongoDB"
+                                      alt="mongodb"
+                                    />
+                                  </a>
+
+                                  <a>
+                                    <img
+                                      src="/wp-content/uploads/2023/04/redux.svg"
+                                      title="Redux.js"
+                                      alt="redux"
+                                    />
+                                  </a>
+                                </div>
+                                <div className="d-flex align-items-center justify-content-between">
+                                  <div className="infos">
+                                    <h5>SPECIALIZATION</h5>
+                                    <h2>Turning Ideas into Pixels</h2>
+                                  </div>
+                                  <Link to="/works" className="about-btn">
+                                    <img
+                                      decoding="async"
+                                      src="wp-content/themes/gridx/assets/images/icon.svg"
+                                      alt="Star"
+                                    />
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-386b9dc"
+                  data-id="386b9dc"
+                  data-element_type="column"
+                >
+                  <div className="elementor-widget-wrap elementor-element-populated">
+                    <div
+                      className="elementor-element elementor-element-d02c9cb elementor-widget elementor-widget-gridxdaprofilesbox"
+                      data-id="d02c9cb"
+                      data-element_type="widget"
+                      data-widget_type="gridxdaprofilesbox.default"
+                    >
+                      <div className="elementor-widget-container">
+                        {/* Start Profiles Box
+      ============================================= */}
+                        <div className="col-md-12">
+                          <div className="blog-service-profile-wrap">
+                            <div
+                              data-aos="zoom-in"
+                              className="about-profile-box-wrap"
+                            >
+                              <div className="about-profile-box info-box shadow-box h-full">
+                                <img
+                                  decoding="async"
+                                  src="wp-content/themes/gridx/assets/images/bg1.png"
+                                  alt="BG"
+                                  className="bg-img"
+                                />
+                                <div className="inner-profile-icons shadow-box">
+
 
                                   <a
                                     href="https://www.linkedin.com/in/nikhil-ageeru/"
@@ -406,8 +429,8 @@ function Home() {
                                 </div>
                                 <div className="d-flex align-items-center justify-content-between">
                                   <div className="infos">
-                                    <h5>STAY WITH ME</h5>
-                                    <h2>Profiles</h2>
+                                    <h5>Profiles</h5>
+                                    <h2>Buy Me A Coffee </h2>
                                   </div>
                                   <Link to="/about" className="about-btn">
                                     <img
@@ -425,6 +448,8 @@ function Home() {
                     </div>
                   </div>
                 </div>
+
+
               </div>
             </section>
             <section
@@ -458,7 +483,7 @@ function Home() {
                             />
                             <div className="clients d-flex align-items-start gap-24 justify-content-center">
                               <div className="client-item">
-                                <h2>01</h2>
+                                <h2>+01</h2>
                                 <p>
                                   Years <br />
                                   Experience
@@ -547,7 +572,7 @@ function Home() {
         </div>
       </section>
     </main>
-  
+
 
   )
 }

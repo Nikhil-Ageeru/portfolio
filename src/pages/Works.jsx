@@ -62,7 +62,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project1.jpg"
+                                                                    src="../wp-content/uploads/2023/04/agent-esports.png"
                                                                     alt="Agent Esports"
                                                                 />
                                                             </div>
@@ -97,7 +97,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project1.jpg"
+                                                                    src="../wp-content/uploads/2023/04/mmh.jpg"
                                                                     alt="Mukesh Medical Hall"
                                                                 />
                                                             </div>
@@ -131,7 +131,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project5.jpg"
+                                                                    src="../wp-content/uploads/2023/04/vaishnavi-interiors.jpg"
                                                                     alt="Vaishnavi Interiors"
                                                                 />
                                                             </div>
@@ -155,7 +155,7 @@ function Works() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+
                                                 {/* Project 3 ends here */}
 
                                                 {/* Project 4 starts here */}
@@ -166,7 +166,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project4.jpg"
+                                                                    src="../wp-content/uploads/2023/04/swec.jpg"
                                                                     alt="Sridevi Womens College"
                                                                 />
                                                             </div>
@@ -196,7 +196,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project3.jpg"
+                                                                    src="../wp-content/uploads/2023/04/enrocit.png"
                                                                     alt="Enroc IT"
                                                                 />
                                                             </div>
@@ -226,7 +226,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project6.jpg"
+                                                                    src="../wp-content/uploads/2023/04/mallareddy.png"
                                                                     alt="Mallareddy ECW"
                                                                 />
                                                             </div>
@@ -260,7 +260,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project1.jpg"
+                                                                    src="../wp-content/uploads/2023/04/unhack.png"
                                                                     alt="Unhack Asia"
                                                                 />
                                                             </div>
@@ -291,7 +291,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project1.jpg"
+                                                                    src="../wp-content/uploads/2023/04/tfs-finserv.png"
                                                                     alt="TFS Finserv"
                                                                 />
                                                             </div>
@@ -322,7 +322,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project1.jpg"
+                                                                    src="../wp-content/uploads/2023/04/olympiad-coach.png"
                                                                     alt="Olympiad Coach"
                                                                 />
                                                             </div>
@@ -356,7 +356,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project1.jpg"
+                                                                    src="../wp-content/uploads/2023/04/avanti-global.png"
                                                                     alt="Avanti Global"
                                                                 />
                                                             </div>
@@ -381,7 +381,7 @@ function Works() {
                                                     </div>
                                                 </div>
 
-                                                
+
                                                 {/* Project 10 ends here */}
 
                                                 {/* Project 11 starts here */}
@@ -392,7 +392,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/project1.jpg"
+                                                                    src="../wp-content/uploads/2023/04/intern-vision.jpg"
                                                                     alt="Intern Vision"
                                                                 />
                                                             </div>
@@ -419,39 +419,39 @@ function Works() {
                                                 {/* Project 11 ends here */}
 
 
-{/* Project 12 starts here */}
-<div className="elementor-widget-container col-md-4">
-  <div data-aos="zoom-in">
-    <div className="project-item shadow-box">
-      <a className="overlay-link" target='_blank' href="https://www.dreamzhubinteriors.com/" />
-      <div className="project-img">
-        <img
-          decoding="async"
-          src="../wp-content/uploads/2023/04/project1.jpg"
-          alt="DreamzHub Interiors"
-        />
-      </div>
-      <div className="d-flex align-items-center justify-content-between">
-        <div className="project-info">
-          <p>DreamzHub Interiors</p>
-          <h2>Interior Design Services</h2>
-        </div>
-        <a
-          href="https://www.dreamzhubinteriors.com/"
-          target="_blank"
-          className="project-btn"
-        >
-          <img
-            decoding="async"
-            src="../wp-content/themes/gridx/assets/images/icon.svg"
-            alt="Star"
-          />
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-{/* Project 12 ends here */}
+                                                {/* Project 12 starts here */}
+                                                <div className="elementor-widget-container col-md-4">
+                                                    <div data-aos="zoom-in">
+                                                        <div className="project-item shadow-box">
+                                                            <a className="overlay-link" target='_blank' href="https://www.dreamzhubinteriors.com/" />
+                                                            <div className="project-img">
+                                                                <img
+                                                                    decoding="async"
+                                                                    src="../wp-content/uploads/2023/04/dreamzhub.png"
+                                                                    alt="DreamzHub Interiors"
+                                                                />
+                                                            </div>
+                                                            <div className="d-flex align-items-center justify-content-between">
+                                                                <div className="project-info">
+                                                                    <p>DreamzHub Interiors</p>
+                                                                    <h2>Interior Design Services</h2>
+                                                                </div>
+                                                                <a
+                                                                    href="https://www.dreamzhubinteriors.com/"
+                                                                    target="_blank"
+                                                                    className="project-btn"
+                                                                >
+                                                                    <img
+                                                                        decoding="async"
+                                                                        src="../wp-content/themes/gridx/assets/images/icon.svg"
+                                                                        alt="Star"
+                                                                    />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {/* Project 12 ends here */}
 
 
 

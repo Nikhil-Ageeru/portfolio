@@ -1,0 +1,32 @@
+
+.mobile-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #0f0f0f;
+    border-top: 1px solid #444;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+  }
+  
+  .mobile-nav .nav-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .mobile-nav .nav-icon small {
+    font-size: 11px;
+    margin-top: 4px;
+  }
+  
+  .mobile-nav .nav-icon:hover {
+    color: #d4d4d4;
+    font-size: 19px;
+
+  }
+  

@@ -1,9 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import './Footer.css'
 
 function Footer() {
-  return (
-    <footer className="footer-area">
+    return (
+        <>
+            {/* Desktop Footer starts*/}
+
+            <footer className="footer-area d-none d-lg-block">
                 <div className="container">
                     <div className="footer-content text-center">
                         <Link to="/" className="logo">
@@ -55,7 +59,46 @@ function Footer() {
                     </div>
                 </div>
             </footer>
-  )
+            {/* Desktop Footer end */}
+
+
+            {/* Mobile Bottom Navigation start */}
+            <nav className="mobile-nav d-md-none">
+                <div className="container-fluid px-0">
+                    <div className="row no-gutters text-center">
+                        <div className="col">
+                            <Link to="/" className="nav-icon">
+                                <i className="iconoir-home"></i>
+                                <small>Home</small>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link to="/about" className="nav-icon">
+                                <i className="iconoir-user"></i>
+                                <small>About</small>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link to="/works" className="nav-icon">
+                                <i className="iconoir-folder"></i>
+                                <small>Works</small>
+                            </Link>
+                        </div>
+                        <div className="col">
+                            <Link to="/contact" className="nav-icon">
+                                <i className="iconoir-mail"></i>
+                                <small>Contact</small>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            {/* Mobile Bottom Navigation end*/}
+
+
+        </>
+    )
 }
 
 export default Footer

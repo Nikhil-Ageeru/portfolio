@@ -212,7 +212,7 @@ function About() {
                                   <h4>EDUCATION</h4>
                                   <ul>
                                     <li>
-                                      <p className="date">2022 - 2023</p>
+                                      <p className="date">2023 - 2024</p>
                                       <h3>MERN Stack Web Development</h3>
                                       <p className="type">
                                         Naresh I Technologies
