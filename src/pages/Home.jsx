@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <main className="main-homepage">
+    <main className="main-homepage pb-5 pb-lg-0 mb-5 mb-lg-0">
       <section className="about-area">
         <div className="container">
           <div
@@ -44,7 +44,7 @@ function Home() {
                             <div className="img-box">
                               <img
                                 decoding="async"
-                                src="wp-content/uploads/2023/04/Nikhil-Ageeru.png"
+                                src="wp-content/uploads/2023/04/Nikhil-Ageeru.webp"
                                 alt=""
                               />
                             </div>
@@ -242,7 +242,7 @@ function Home() {
                                     />
                                     <img
                                       decoding="async"
-                                      src="wp-content/uploads/2023/04/my-works.png"
+                                      src="wp-content/uploads/2023/04/my-works.webp"
                                       alt=""
                                     />
                                     <div className="d-flex align-items-center justify-content-between">

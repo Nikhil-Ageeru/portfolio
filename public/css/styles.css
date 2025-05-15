@@ -170,3 +170,8 @@ form.submitting .wpcf7-spinner {
 .wpcf7-reflection > output[hidden] {
 	display: none;
 }
+@media (max-width: 768px) {
+	.main {
+		padding-bottom: 100px;
+	}
+}

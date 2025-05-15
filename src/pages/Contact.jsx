@@ -35,7 +35,7 @@ function Contact() {
 
 
   return (
-    <main className='main-aboutpage'>
+    <main className='main-aboutpage pb-5 pb-lg-0 mb-5 mb-lg-0'>
       <div
         data-elementor-type="wp-page"
         data-elementor-id={1560}

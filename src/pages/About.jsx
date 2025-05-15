@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function About() {
   return (
-    <main className="main-aboutpage">
+    <main className="main-aboutpage pb-5 pb-lg-0 mb-5 mb-lg-0">
     <section className="about-area">
       <div className="container">
         <div
@@ -59,7 +59,7 @@ function About() {
                                     <img
                                     className='w-100'
                                       decoding="async"
-                                      src="wp-content/uploads/2023/04/Nikhil-Ageeru-2.png"
+                                      src="wp-content/uploads/2023/04/Nikhil-Ageeru-2.webp"
                                       alt=""
                                     />
                                   </div>

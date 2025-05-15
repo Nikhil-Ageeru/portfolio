@@ -3,7 +3,7 @@ import React from 'react'
 function Works() {
     return (
         < >
-            <section className="projects-area">
+            <section className="projects-area pb-5 pb-lg-0 mb-5 mb-lg-0">
                 <div className="container">
                     <div
                         data-elementor-type="wp-page"
@@ -62,7 +62,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/agent-esports.png"
+                                                                    src="../images/projects/agent-esports.webp"
                                                                     alt="Agent Esports"
                                                                 />
                                                             </div>
@@ -97,7 +97,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/mmh.jpg"
+                                                                    src="../images/projects/mmh.webp"
                                                                     alt="Mukesh Medical Hall"
                                                                 />
                                                             </div>
@@ -131,7 +131,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/vaishnavi-interiors.jpg"
+                                                                    src="../images/projects/vaishnavi-interiors.webp"
                                                                     alt="Vaishnavi Interiors"
                                                                 />
                                                             </div>
@@ -166,7 +166,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/swec.jpg"
+                                                                    src="../images/projects/swec.webp"
                                                                     alt="Sridevi Womens College"
                                                                 />
                                                             </div>
@@ -196,7 +196,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/enrocit.png"
+                                                                    src="../images/projects/enrocit.webp"
                                                                     alt="Enroc IT"
                                                                 />
                                                             </div>
@@ -226,7 +226,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/mallareddy.png"
+                                                                    src="../images/projects/mallareddy.webp"
                                                                     alt="Mallareddy ECW"
                                                                 />
                                                             </div>
@@ -260,7 +260,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/unhack.png"
+                                                                    src="../images/projects/unhack.webp"
                                                                     alt="Unhack Asia"
                                                                 />
                                                             </div>
@@ -291,7 +291,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/tfs-finserv.png"
+                                                                    src="../images/projects/tfs-finserv.webp"
                                                                     alt="TFS Finserv"
                                                                 />
                                                             </div>
@@ -322,7 +322,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/olympiad-coach.png"
+                                                                    src="../images/projects/olympiad-coach.webp"
                                                                     alt="Olympiad Coach"
                                                                 />
                                                             </div>
@@ -356,7 +356,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/avanti-global.png"
+                                                                    src="../images/projects/avanti-global.webp"
                                                                     alt="Avanti Global"
                                                                 />
                                                             </div>
@@ -392,7 +392,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/intern-vision.jpg"
+                                                                    src="../images/projects/intern-vision.webp"
                                                                     alt="Intern Vision"
                                                                 />
                                                             </div>
@@ -427,7 +427,7 @@ function Works() {
                                                             <div className="project-img">
                                                                 <img
                                                                     decoding="async"
-                                                                    src="../wp-content/uploads/2023/04/dreamzhub.png"
+                                                                    src="../images/projects/dreamzhub.webp"
                                                                     alt="DreamzHub Interiors"
                                                                 />
                                                             </div>
